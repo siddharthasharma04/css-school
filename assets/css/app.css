@@ -1,0 +1,124 @@
+.logo-image{
+    max-width: 120px
+}
+.section-padding{
+    padding: 100px 0;
+}
+.nav-pills .nav-link.active{
+    background: #ff5020 none repeat scroll 0 0;
+    border: 1px solid #ff5020;
+}
+
+.carousel-caption {
+    left: 10%;
+    width: 40%;
+    top: 25%;
+    background-color: rgba(0, 0, 0, 0.26);
+    bottom: auto;
+    text-align: left;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px #000;
+}
+
+.carousel-caption h5 {
+    font-size: 2.5rem;
+}
+
+.carousel > a >span {
+    filter: drop-shadow(1px 2px 1px #333);
+}
+
+section.class{
+    background-image: url(../images/20.jpg);
+    color: #fff;
+    padding: 5rem 0;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.section__title--2 h2.title__line {
+    color: #444444;
+    font-size: 48px;
+    line-height:1.1;
+    padding-top: 30px;
+    position: relative;
+    font-family: "Dosis", sans-serif;
+    z-index: 2;
+}
+.section__title--2 h2.title__line::before {
+    content: "";
+    background-image: url(../images/icons/line-4.png);
+    background-repeat: no-repeat;
+    content: "";
+    height: 30px;
+    position: absolute;
+    top: 0;
+    width: 110px;
+}
+
+.events-container{
+    background-image: url(../images/17.jpg);
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+.theme-color {
+    color: #89d700;
+}
+footer .section__title--2 h2.title__line, #home-section .section__title--2 h2.title__line{
+    padding-top: 15px;
+}
+footer .section__title--2 h2.title__line::before, #home-section .section__title--2 h2.title__line::before{
+    height: 4px;
+    bottom: -25px;
+    width: 100px;
+    background-color: #fff;
+    top: auto;
+    right: auto;
+    left: calc(50% - 50px);
+    background-image: none;
+    border-radius: 20px;
+}
+.events-container img{
+    transition: all 500ms;
+}
+.events-container .img-thumbnail:hover img{
+    transform: scale(1.2) rotate(5deg)
+}
+.section__title--2 h2 span.theme-color-2 {
+    color: #faae08;
+}
+.ftr_icon {
+    width: 30px;
+}
+.dacre__social__link--2 li a {
+    background: #fff;
+    border-radius: 100%;
+    display: block;
+    height: 40px;
+    line-height: 44px;
+    text-align: center;
+    width: 40px;
+}
+.dacre__social__link--2 li.facebook a {
+    color: #3B5998;
+}
+.dacre__social__link--2 li.twitter a {
+    color: #1DA1F2;
+}
+.dacre__social__link--2 li.vimeo a {
+    color: #1AB7EA;
+}
+.dacre__social__link--2 li.pinterest a {
+    color: #C8232C;
+}
+.copy-text.text-center {
+    background-color: #333;
+    padding: 5px;
+}
+
+@media screen and (max-width:767px){
+    .section-padding{
+        padding: 50px 0;
+    }
+}
