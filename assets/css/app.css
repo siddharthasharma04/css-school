@@ -1,5 +1,6 @@
 .logo-image{
-    max-width: 120px
+    max-width: 150px;
+    width: 100%;
 }
 .section-padding{
     padding: 100px 0;
@@ -8,12 +9,22 @@
     background: #ff5020 none repeat scroll 0 0;
     border: 1px solid #ff5020;
 }
-
+h1,h2,h3,h4,h5{
+    font-family: "Dosis", sans-serif;
+}
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+}
+.service__thumb img {
+    max-width: 80px;
+    margin-bottom: 20px;
+}
 .carousel-caption {
     left: 10%;
     width: 40%;
     top: 25%;
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(1, 170, 222, 0.6);
     bottom: auto;
     text-align: left;
     padding: 30px;
@@ -28,7 +39,9 @@
 .carousel > a >span {
     filter: drop-shadow(1px 2px 1px #333);
 }
-
+section#about-section {
+    background-color: #eee;
+}
 section.class{
     background-image: url(../images/20.jpg);
     color: #fff;
